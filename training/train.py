@@ -2,7 +2,10 @@
 from itertools import combinations
 
 from nltk import ngrams
-from sklearn.cross_validation import train_test_split
+# from sklearn.cross_validation import train_test_split
+# In the new version, the train test split function 
+# is moved into sklearn.model_selection
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 import numpy as np
 
