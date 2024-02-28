@@ -9,7 +9,7 @@ frequent_word_pairs = None
 K = 200
 import pandas as pd
 
-from spacy.en import English
+from spacy.lang.en import English
 
 parser = English()
 import os
